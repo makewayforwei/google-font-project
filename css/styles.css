@@ -2,42 +2,42 @@ html {
   scroll-behavior: smooth;
 }
 
-.hero-content {
- display: none; 
-}
 
 body {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Space Mono', monospace;
   margin: 0;
   padding: 0;
 }
 
 header {
   height: 100vh;
+  color:white;
 }
-
 .hero-content {
   width: 50%;
   text-align: center;
-  color: #000;
+  color: white;
 }
 
 p {
-  font-weight: 200;
-  font-size: 18px;
-  line-height: 30px;
+  font-weight: 195;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 a {
   margin-top: 0;
   margin-right:10px;
   margin-bottom: 10px;
-  background-color: rgb(0, 0, 0, 0.6);
+  background-color: rgb(0, 0, 0, 0.8);
   padding: 10px;
   text-decoration: none;
-  color: #fff;
+  color: white;
   display: inline-block;
+  
 }
+
+
 
 nav {
   width: 100%;
@@ -45,23 +45,18 @@ nav {
   padding: 20px;
   position: fixed;
   top: 0;
-  background-color:  rgb(0, 0, 0, 0.3);
+  background-color:  rgb(0, 0, 0, 0.2);
   z-index: 10;
 }
-
 span .font-pair1a{
-  font-family: 'Roboto', sans-serif;
+ font-family: 'Krona+One', sans-serif;
 }
 
 span .font-pair1b{
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Space+Mono', monospace;
 }
-
-
-/* add your css below this line */
-
 .hero-background {
-  background: url("https://images.pexels.com/photos/234133/pexels-photo-234133.jpeg") no-repeat fixed center;
+  background: url("https://images.pexels.com/photos/532173/pexels-photo-532173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat fixed center;
   background-size: cover;
 }
 
@@ -72,17 +67,19 @@ span .font-pair1b{
 }
 
 .first-section-background {
-  background: url("https://images.pexels.com/photos/6249454/pexels-photo-6249454.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat fixed bottom;
+  background: url("https://images.pexels.com/photos/4033705/pexels-photo-4033705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat fixed center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
 }
-
 .second-section-background {
-  background: url("https://reliablepsd.com/wp-content/themes/reliable/images/blog/bg07.jpg") no-repeat fixed bottom;
+  background: url("https://images.pexels.com/photos/4439453/pexels-photo-4439453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat fixed center;
 }
 
 .third-section-background {
-  background: url("https://images.pexels.com/photos/1803859/pexels-photo-1803859.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat fixed bottom;
+  background: url("https://images.pexels.com/photos/6863531/pexels-photo-6863531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat fixed bottom;
 }
-
 .with-background {
   background-size: cover;
   height: 100vh;
@@ -98,7 +95,7 @@ section {
 h1 {
   font-size: 60px;
   line-height: 65px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -110,11 +107,11 @@ h2 {
 
 h3 {
   font-size: 55px;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 60px;
   margin: 0;
+  color: white;
 }
-
 .number {
   width: 50px;
   height: 50px;
@@ -139,19 +136,24 @@ article {
 }
 
 .first-article-container {
-  background-color: #e2b400;
+  background-color: #F4F482;
 }
 
 .second-article-container {
-  background-color: #a66746;
+  background-color: #284CFF;
 }
 
 .third-article-container {
-  background-color: #a69991;
+  background-color: #ECDDF7;
 }
 
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: rgb(0, 0, 0, 0.3);
+  background-color: rgb(0, 0, 0);
+  color:white;
+}
+footer a:hover {
+  cursor: pointer;
+  color: red;
 }
