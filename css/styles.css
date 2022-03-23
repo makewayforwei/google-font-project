@@ -14,6 +14,7 @@ header {
   color:white;
 }
 .hero-content {
+  display: none; /* This will be removed when we fade in the element */
   width: 50%;
   text-align: center;
   color: white;
@@ -36,8 +37,6 @@ a {
   display: inline-block;
   
 }
-
-
 
 nav {
   width: 100%;
